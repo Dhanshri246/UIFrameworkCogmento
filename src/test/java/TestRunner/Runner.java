@@ -7,8 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 		
 		features="src/test/java/FeatureFiles/Cogmento.feature",
 		glue= {"Steps"},
-		dryRun=true,
-		monochrome=false	
+		dryRun=false,
+		monochrome=true	
 		
 		)
 
