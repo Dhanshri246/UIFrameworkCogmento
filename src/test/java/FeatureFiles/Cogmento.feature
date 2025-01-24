@@ -14,3 +14,9 @@ Feature: Test Cogmento URL
     And user enter first name and last name
     And user enter email and select status
     Then click on save button
+
+  Scenario: Validate Deals Page fucntionality
+    When user click on Deals link
+    And user click on create deal link
+    And user enter valid title
+    Then user click on save button
