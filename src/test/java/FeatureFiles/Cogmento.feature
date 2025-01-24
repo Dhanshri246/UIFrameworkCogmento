@@ -8,3 +8,9 @@ Feature: Test Cogmento URL
   Scenario: Test Home Page functinality
     When user check logo status
     Then user click on contact link
+
+  Scenario: Validate Contact Page Functionality
+    When user click on create contact button
+    And user enter first name and last name
+    And user enter email and select status
+    Then click on save button
